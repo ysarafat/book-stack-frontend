@@ -1,10 +1,13 @@
-/* Components */
-import { Counter } from './components/Counter/Counter'
+const page = () => {
+  return (
+    <div>
+      <h1>Hello </h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
+        atque?
+      </p>
+    </div>
+  );
+};
 
-export default function IndexPage() {
-  return <Counter />
-}
-
-export const metadata = {
-  title: 'Redux Toolkit',
-}
+export default page;
